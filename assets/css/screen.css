@@ -78,7 +78,7 @@ body {
 /* Centered content container blocks */
 .inner {
     margin: 0 auto;
-    max-width: var(custom-max-width);
+    max-width: var(--custom-max-width);
     width: 100%;
 }
 
@@ -1013,7 +1013,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 }
 
 .post-full-image img {
-    max-width: var(custom-max-width);
+    max-width: var(--custom-max-width);
     width: 100%;
     height: auto;
 }
@@ -1124,10 +1124,10 @@ make sure this only happens on large viewports / desktop-ish devices.
 .post-full-content video {
     display: block;
     margin: 1.5em auto;
-    max-width: var(custom-max-width);
+    max-width: var(--custom-max-width);
     height: auto;
 }
-@media (max-width: var(custom-max-width)) {
+@media (max-width: var(--custom-max-width)) {
     .post-full-content img,
     .post-full-content video {
         width: 100%;
@@ -2092,7 +2092,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content .kg-width-wide .kg-image {
-    max-width: var(custom-max-width);
+    max-width: var(--custom-max-width);
 }
 
 .post-full-content .kg-width-full .kg-image {
@@ -2121,7 +2121,7 @@ Usage (In Ghost editor):
     font-size: 75%;
     line-height: 1.5em;
     text-align: center;
-    max-width: var(custom-max-width);
+    max-width: var(--custom-max-width);
 }
 
 .kg-width-full figcaption {
@@ -2140,7 +2140,7 @@ Usage (In Ghost editor):
 }
 
 
-@media (max-width: var(custom-max-width)) {
+@media (max-width: var(--custom-max-width)) {
     .post-full-content .kg-width-full .kg-image {
         width: 100vw;
     }
@@ -2149,7 +2149,7 @@ Usage (In Ghost editor):
 .kg-gallery-container {
     display: flex;
     flex-direction: column;
-    max-width: var(custom-max-width);
+    max-width: var(--custom-max-width);
     width: 100vw;
 }
 
