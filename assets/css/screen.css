@@ -40,6 +40,19 @@ production stylesheet in assets/built/screen.css
     color: var(--darkgrey);
 }
 
+.gsc-search-button-v2 {
+    padding: 1px 8px !important;
+    vertical-align: baseline !important;
+}
+
+.gsib_a {
+    padding: 1px 9px 1px 9px !important;
+}
+
+table.gsc-search-box td {
+    vertical-align: bottom !important;
+}
+
 /* ---------------------------------------------------------- */
 
 body {
