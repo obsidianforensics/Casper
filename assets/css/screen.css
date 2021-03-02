@@ -31,10 +31,16 @@ production stylesheet in assets/built/screen.css
 /* ---------------------------------------------------------- */
 @import "global.css";
 
+/* Things I've added */
+
+/* Customize the appearance of the custom search box */
 .gsc-control-cse {
     background: none !important;
     border: none !important;
+    color: var(--darkgrey);
 }
+
+/* ---------------------------------------------------------- */
 
 body {
     background: #fff;
