@@ -4,7 +4,7 @@
 :root {
     /* Colours */
     --blue: #3eb0ef;
-    --green: #a4d037;
+    --green: #81d742;
     --purple: #ad26b4;
     --yellow: #fecd35;
     --red: #f05230;
@@ -298,7 +298,7 @@ body {
 
 ::selection {
     text-shadow: none;
-    background: color-mod(var(--blue) lightness(+30%));
+    background: color-mod(var(--green) lightness(+30%));
 }
 
 hr {
@@ -416,7 +416,7 @@ blockquote cite a {
 }
 
 a {
-    color: color-mod(var(--blue) l(-5%));
+    color: color-mod(var(--green) l(-5%));
     text-decoration: none;
 }
 
