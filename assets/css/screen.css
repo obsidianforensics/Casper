@@ -27,7 +27,7 @@ production stylesheet in assets/built/screen.css
 */
 
 .gsc-control-cse {
-    border: none;
+    background: none !important;
 }
 
 /* 1. Global - Set up the things
