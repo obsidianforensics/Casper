@@ -4,6 +4,8 @@
 into the {body} of the default.hbs template --}}
 
 <header class="site-header">
+    {{> header-background background=@site.cover_image}} {{!--Special header-image.hbs partial to generate the background image--}}
+
     {{> site-header}}
 </header>
 
@@ -11,8 +13,6 @@ into the {body} of the default.hbs template --}}
 {{#post}}
 
 <main id="site-main" class="site-main outer">
-    {{> header-background background=@site.cover_image}} {{!--Special header-image.hbs partial to generate the background image--}}
-
     <div class="inner">
 
         <article class="post-full {{post_class}} no-image">
