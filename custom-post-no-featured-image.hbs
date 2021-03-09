@@ -7,12 +7,7 @@ into the {body} of the default.hbs template --}}
 {{#post}}
 
 <header class="site-header">
-<!--    {{> site-header}}  the below was in here-->
-    <div class="outer site-nav-main">
-        <div class="inner">
-            {{> "site-nav"}}
-        </div>
-    </div>
+    {{> site-header}}  the below was in here
 
     {{> header-background background=@site.cover_image}} {{!--Special header-image.hbs partial to generate the background image--}}
 
