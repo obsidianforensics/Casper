@@ -10,7 +10,9 @@ into the {body} of the default.hbs template --}}
 {{!-- Everything inside the #post tags pulls data from the post --}}
 {{#post}}
 
-<main id="site-main" class="site-main outer site-header-background responsive-header-img">
+<main id="site-main" class="site-main outer">
+    {{> header-background background=@site.cover_image}} {{!--Special header-image.hbs partial to generate the background image--}}
+
     <div class="inner">
 
         <article class="post-full {{post_class}} no-image">
