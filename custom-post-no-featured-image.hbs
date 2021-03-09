@@ -17,9 +17,10 @@ into the {body} of the default.hbs template --}}
                     {{#primary_tag}}
                     <a href="{{url}}">{{name}}</a>
                     {{/primary_tag}}
+                    <time class="byline-meta-date" datetime="{{date format="YYYY-MM-DD"}}"> // {{date format="D MMM YYYY"}}</time>
                 </section>
                 {{/if}}
-                <time class="byline-meta-date" datetime="{{date format="YYYY-MM-DD"}}"> | {{date format="D MMM YYYY"}}</time>
+
 
                 <h1 class="post-full-title" style="color: #fff">{{title}}</h1>
 
