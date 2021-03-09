@@ -3,6 +3,9 @@
 {{!-- The tag above means: insert everything in this file
 into the {body} of the default.hbs template --}}
 
+{{!-- Everything inside the #post tags pulls data from the post --}}
+{{#post}}
+
 <header class="site-header">
 <!--    {{> site-header}}  the below was in here-->
     <div class="outer site-nav-main">
@@ -86,8 +89,6 @@ into the {body} of the default.hbs template --}}
     </div>
 </header>
 
-{{!-- Everything inside the #post tags pulls data from the post --}}
-{{#post}}
 
 <main id="site-main" class="site-main outer">
     <div class="inner">
