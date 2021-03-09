@@ -12,7 +12,7 @@ into the {body} of the default.hbs template --}}
     {{> header-background background=@site.cover_image}} {{!--Special header-image.hbs partial to generate the background image--}}
 
         <header class="post-full-header">
-        <div class="inner" style="padding: 0 170px 6vw;">
+        <div class="inner" style="padding: 0 170px;">
                 {{#if primary_tag}}
                 <section class="post-full-tags">
                     {{#primary_tag}}
@@ -21,11 +21,7 @@ into the {body} of the default.hbs template --}}
                 </section>
                 {{/if}}
 
-                <h1 class="post-full-title">{{title}}</h1>
-
-                {{#if custom_excerpt}}
-                <p class="post-full-custom-excerpt">{{custom_excerpt}}</p>
-                {{/if}}
+                <h1 class="post-full-title" style="color: #fff">{{title}}</h1>
 
                 <div class="post-full-byline">
 
