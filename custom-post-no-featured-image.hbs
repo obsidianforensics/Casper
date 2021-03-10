@@ -3,11 +3,10 @@
 {{!-- The tag above means: insert everything in this file
 into the {body} of the default.hbs template --}}
 
-{{!-- Everything inside the #post tags pulls data from the post --}}
-{{#post}}
-
 <header class="site-header">
     {{> site-header}}
+    {{!-- Everything inside the #post tags pulls data from the post --}}
+    {{#post}}
     {{> header-background background=@site.cover_image}}
 
     <header class="post-full-header">
