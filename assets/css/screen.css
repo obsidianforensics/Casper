@@ -957,8 +957,8 @@ make sure this only happens on large viewports / desktop-ish devices.
 
 .post-template .site-main,
 .page-template .site-main {
-    margin-top: 64px;
-    padding-bottom: 4vw;
+    margin-top: 24px;
+    padding-bottom: 1vw;
     background: #fff;
 }
 
